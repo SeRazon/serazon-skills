@@ -1,0 +1,8 @@
+Figure 1. Loss of SampleProteinA perturbs the transcriptional landscape.
+Figure 2. SampleProteinB is required for SampleProteinA-mediated autophagy.
+Figure 3. Co-depletion restores the epithelial phenotype.
+Extended Data Fig. 1. Uncropped immunoblots.
+Extended Data Fig. 2. Gating strategy for flow cytometry.
+Extended Data Fig. 3. Additional transcriptomic analyses.
+Supplementary Fig. 1. Validation of knockdown efficiency.
+Supplementary Table 1. Antibodies and reagents used in this study.
