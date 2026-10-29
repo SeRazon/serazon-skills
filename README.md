@@ -69,7 +69,7 @@ Copy-Item -Recurse research\idea-evaluator $env:USERPROFILE\.workbuddy\skills\
 
 ## 添加新技能
 
-1. 复制对应类别的模板：`cp -r _template/<category> <category>/<skill-name>`；
+1. 复制对应类别的模板：`cp -r _template/<category> <category>/<skill-name>`（科研模板自带 `scripts/audit_claims.py` 证据链审计脚本）；
 2. 改 `SKILL.md` 的 `name`（与目录名一致）、`display_name`、`description`，替换全部 `TODO`；完整规范见 [`CONTRIBUTING.md`](CONTRIBUTING.md)（四类合格线见第三节）；
 3. 校验：frontmatter 可解析，`name` 与目录名一致，且能完成一次最小调用；
 4. **确认许可与署名**：

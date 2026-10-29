@@ -4,9 +4,10 @@
 
 ```text
 _template/
-├── research/      # 科研：证据表 + 提纲
+├── research/      # 科研：证据表 + 提纲 + 证据链审计
 │   ├── SKILL.md
-│   └── references/evidence-table.md
+│   ├── references/evidence-table.md
+│   └── scripts/audit_claims.py
 ├── design/        # 设计：状态矩阵 + 令牌 + 动效参数
 │   ├── SKILL.md
 │   └── references/state-matrix.md
@@ -46,5 +47,6 @@ cp -r _template/design ../design/<your-skill-name>
 ## 注意
 
 - 模板中的 `TODO` 与示例数据必须全部替换；提交前搜一遍 `TODO`。
+- research 模板自带 `scripts/audit_claims.py`，复制后即可对 `claims.csv` / `sources.json` / 正文做证据链审计。
 - 第三方内容先过许可判定（`CONTRIBUTING.md` 第二节）：不能内置的只登记 `LINKS.md`。
 - 模板本身不属于任何技能，不要在其中直接写具体业务内容。

@@ -154,6 +154,7 @@ chore: <杂项>                文档、脚本、配置
 **分类**
 
 - [ ] research：断言均有出处；术语统一；无"承诺发表"类表述
+- [ ] research：若附 `claims.csv` / `sources.json`，`scripts/audit_claims.py` 审计通过
 - [ ] design：状态矩阵、令牌、动效参数、无障碍四项齐全
 - [ ] engineering：只读优先；有严重度分级与复现命令
 - [ ] algorithm：代码可编译；复杂度与数据范围一致；标注改动点
