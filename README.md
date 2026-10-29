@@ -6,7 +6,7 @@
 
 按用途分为科研、设计、工程、算法四类。每个技能是一个独立目录，遵循 `SKILL.md` + `references/` + `scripts/` + `assets/` 的组织方式，可直接被支持 Skills 的 AI 助手加载。
 
-当前内置 **11** 个技能（research 7 · design 2 · engineering 1 · algorithm 1）；另有 12 个因许可限制**仅提供链接**，见 [`LINKS.md`](LINKS.md)。
+当前内置 **12** 个技能（research 7 · design 2 · engineering 2 · algorithm 1）；另有 12 个因许可限制**仅提供链接**，见 [`LINKS.md`](LINKS.md)。
 
 ## 目录
 
@@ -14,7 +14,7 @@
 |---|---|---|
 | [`research/`](research/) | 科研：Idea 评估、论文骨架、作图、投稿前审查、参考图重建 | 7 |
 | [`design/`](design/) | 设计：前端交互规范、品牌设计模板 | 2 |
-| [`engineering/`](engineering/) | 工程：代码审查 | 1 |
+| [`engineering/`](engineering/) | 工程：代码审查、软著材料 | 2 |
 | [`algorithm/`](algorithm/) | 算法：竞赛算法选型、C++ 模板、赛场流程 | 1 |
 | [`_template/`](_template/) | 四类技能的最小模板（research / design / engineering / algorithm） | — |
 
@@ -42,6 +42,7 @@
 | 技能 | 说明 | 许可 |
 |---|---|---|
 | `code-review-and-quality` | 五维度结构化代码审查（正确性 / 可读性 / 可维护性 / 性能 / 安全），合并前使用 | MIT |
+| `software-copyright` | 中国软著登记材料：源码扫描、前后各30页源程序文档、申请表字段、用户手册骨架、证据映射、AI 使用声明与材料自检 | MIT |
 
 ### algorithm
 

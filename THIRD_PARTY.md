@@ -13,6 +13,7 @@
 | `design/awesome-design-md` | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | **MIT**（Copyright 2026 VoltAgent） | DESIGN.md 取自公开网站可见样式；上游不主张品牌视觉所有权 |
 | `design/frontend-interaction-design` | 星鸿自建 | **MIT** | — |
 | `engineering/code-review-and-quality` | 未声明（SKILL.md 声明 MIT） | **MIT** | 来源待补充 |
+| `engineering/software-copyright` | 星鸿自建 | **MIT** | 本地处理，不上传源码；仅整理真实项目材料 |
 | `algorithm/xcpc-oi` | 星鸿自建；知识参考 [OI Wiki](https://oi-wiki.org/)、[cp-algorithms](https://cp-algorithms.com/)、[ohmyxcpc](https://github.com/L-1ngg/ohmyxcpc) | **MIT** | 参考来源为 CC BY-SA 等授权，本仓库**仅链接引用**，未转载正文与代码 |
 
 ## 未内置（仅链接）
