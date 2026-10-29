@@ -6,7 +6,7 @@
 
 按用途分为科研、设计、工程、算法四类。每个技能是一个独立目录，遵循 `SKILL.md` + `references/` + `scripts/` + `assets/` 的组织方式，可直接被支持 Skills 的 AI 助手加载。
 
-当前内置 **11** 个技能（research 7 · design 2 · engineering 1 · algorithm 1）；另有 9 个因许可限制**仅提供链接**，见 [`LINKS.md`](LINKS.md)。
+当前内置 **11** 个技能（research 7 · design 2 · engineering 1 · algorithm 1）；另有 12 个因许可限制**仅提供链接**，见 [`LINKS.md`](LINKS.md)。
 
 ## 目录
 
