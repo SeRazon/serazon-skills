@@ -4,7 +4,8 @@ description: "Curated collection of 54 DESIGN.md files extracted from real devel
 description_zh: "54 个知名网站设计系统模板，一键复用品牌级 UI 风格"
 description_en: "54 ready-to-use DESIGN.md files from top websites for instant brand-quality UI"
 homepage: https://github.com/VoltAgent/awesome-design-md
-allowed-tools: Read,Write,Bash
+license: MIT
+allowed-tools: Read,Write
 display_name: "awesome-design-md"
 display_name_en: "awesome-design-md"
 visibility: "public"

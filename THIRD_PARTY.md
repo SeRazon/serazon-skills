@@ -8,7 +8,7 @@
 
 | 技能 | 来源 | 许可 | 备注 |
 |---|---|---|---|
-| `research/idea-evaluator`<br>`research/tech-paper-template`<br>`research/benchmark-paper-template`<br>`research/figure-designer`<br>`research/pre-submission-reviewer`<br>`research/vibe-research-workflow` | [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills)（骆昱宇，香港科技大学（广州）） | **CC BY 4.0** | 可商用；须署名，不得暗示原作者背书 |
+| `research/idea-evaluator`<br>`research/tech-paper-template`<br>`research/benchmark-paper-template`<br>`research/figure-designer`<br>`research/pre-submission-reviewer`<br>`research/vibe-research-workflow` | [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills)（骆昱宇，香港科技大学（广州）） | **CC BY 4.0** | 可商用；须署名，不得暗示原作者背书；本仓库对目录结构、引用索引与计数有编辑 |
 | `research/drawio-reconstruction` | 同上（Copyright 2026 VCG-Bench Authors） | **MIT** | 目录内附 LICENSE |
 | `design/awesome-design-md` | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | **MIT**（Copyright 2026 VoltAgent） | DESIGN.md 取自公开网站可见样式；上游不主张品牌视觉所有权 |
 | `design/frontend-interaction-design` | 星鸿自建 | **MIT** | — |
