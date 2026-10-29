@@ -6,6 +6,7 @@
 |---|---|---|---|
 | `research/benchmark-paper-template`<br>`research/deep-research`<br>`research/drawio-reconstruction`<br>`research/figure-designer`<br>`research/idea-evaluator`<br>`research/intro-drafter`<br>`research/paper-polish`<br>`research/paper-writer`<br>`research/pre-submission-reviewer`<br>`research/rebuttal-guidance`<br>`research/tech-paper-template`<br>`research/vibe-research-workflow` | [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills)（骆昱宇，香港科技大学（广州）） | CC BY-NC-SA 4.0 | 非商业使用；分发需注明出处并采用相同许可 |
 | `research/research-literature-manager`<br>`research/sci-paper-research-writer`<br>`research/baige-lunwen-xiezuo` | WorkBuddy 技能市场 | 以来源页说明为准 | 若原作者有异议，请联系移除 |
+| `algorithm/xcpc-oi` | 星鸿自建；知识参考 [OI Wiki](https://oi-wiki.org/)、[cp-algorithms](https://cp-algorithms.com/)、[ohmyxcpc](https://github.com/L-1ngg/ohmyxcpc) | MIT（正文与模板为原创整理） | 上列为 CC BY-SA 等授权来源，本仓库**仅链接引用**，未转载其正文与代码 |
 | `design/awesome-design-md` | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | MIT（Copyright 2026 VoltAgent） | DESIGN.md 由公开网站的可见样式整理；上游不主张品牌视觉所有权 |
 | `engineering/skills-security-check` | 腾讯云鼎实验室（据 SKILL.md 描述） | 未标注（以来源为准） | 技能安全审计工具；如权利人要求，将移除或补充授权 |
 | `design/frontend-interaction-design`<br>`design/frontend-design`<br>`design/gzh-design`<br>`design/lyric-video-pv`<br>`engineering/code-review-and-quality` | 星鸿自用 / 自建（部分来源待补充） | MIT（如另有来源，以来源为准） | — |

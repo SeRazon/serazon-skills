@@ -6,7 +6,7 @@
 
 按用途分为科研、设计、工程、算法四类，持续补充。每个技能是一个独立目录，遵循 `SKILL.md` + `references/` + `scripts/` + `assets/` 的组织方式，可直接被支持 Skills 的 AI 助手加载。
 
-当前收录 **22** 个技能（research 15 · design 5 · engineering 2），更新记录见提交历史。
+当前收录 **23** 个技能（research 15 · design 5 · engineering 2 · algorithm 1），更新记录见提交历史。
 
 ## 目录
 
@@ -15,7 +15,7 @@
 | [`research/`](research/) | 科研：Idea 评估、综述调研、文献精读与管理、论文写作与润色、作图、投稿前审查、Rebuttal | 15 |
 | [`design/`](design/) | 设计：前端交互规范、前端设计、品牌设计模板、公众号排版、歌词视频 | 5 |
 | [`engineering/`](engineering/) | 工程：代码审查、技能安全审查 | 2 |
-| [`algorithm/`](algorithm/) | 算法（预留，待补充） | — |
+| [`algorithm/`](algorithm/) | 算法：竞赛算法选型、C++ 模板、赛场流程 | 1 |
 | [`_template/`](_template/) | 新增技能的模板与说明 | — |
 
 ### research
@@ -54,6 +54,12 @@
 | `code-review-and-quality` | 五维度结构化代码审查（正确性 / 可读性 / 可维护性 / 性能 / 安全），合并前使用 |
 | `skills-security-check` | 第三方技能安全审计：检查脚本权限、外部请求、凭据与敏感信息（腾讯云鼎实验室出品） |
 
+### algorithm
+
+| 技能 | 说明 |
+|---|---|
+| `xcpc-oi` | 竞赛算法选型与实现：复杂度速判、数据结构、图论、DP、数学、字符串与几何、赛场调试、C++17 模板与对拍脚本 |
+
 ## 使用
 
 把需要的技能目录复制到本机的技能目录：
@@ -71,12 +77,13 @@ Copy-Item -Recurse research\deep-research $env:USERPROFILE\.workbuddy\skills\
 ## 添加新技能
 
 1. 在对应类别下新建 `<skill-name>/`，放入 `SKILL.md` 及所需资源；
-2. 结构参照 [`_template/`](_template/)；
+2. 结构与命名参照 [`_template/`](_template/) 与 [`CONTRIBUTING.md`](CONTRIBUTING.md)；
 3. 校验：frontmatter 可解析，`name` 与目录名一致，且能完成一次最小调用；
 4. **确认许可与署名**：
    - 第三方技能必须有可核验的许可证（无 LICENSE 时查上游仓库 `homepage`）；
    - 在 [`THIRD_PARTY.md`](THIRD_PARTY.md) 登记来源与许可；
    - 含商标、付费模板、抓取图片等素材的，先确认能否再分发，否则不入库；
+   - 注意 CC BY-SA 等传染性许可：只能链接引用，不能整段转载；
 5. 提交信息使用规范前缀：
 
 ```text
