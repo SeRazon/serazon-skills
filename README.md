@@ -6,6 +6,8 @@
 
 按用途分为科研、设计、工程、算法四类，持续补充。每个技能是一个独立目录，遵循 `SKILL.md` + `references/` + `scripts/` + `assets/` 的组织方式，可直接被支持 Skills 的 AI 助手加载。
 
+当前收录 **22** 个技能（research 15 · design 5 · engineering 2），更新记录见提交历史。
+
 ## 目录
 
 | 目录 | 内容 | 数量 |
@@ -45,6 +47,13 @@
 | `gzh-design` | 公众号排版引擎：Markdown 转可粘贴 HTML |
 | `lyric-video-pv` | 歌词视频生成流程 |
 
+### engineering
+
+| 技能 | 说明 |
+|---|---|
+| `code-review-and-quality` | 五维度结构化代码审查（正确性 / 可读性 / 可维护性 / 性能 / 安全），合并前使用 |
+| `skills-security-check` | 第三方技能安全审计：检查脚本权限、外部请求、凭据与敏感信息（腾讯云鼎实验室出品） |
+
 ## 使用
 
 把需要的技能目录复制到本机的技能目录：
@@ -57,13 +66,18 @@ cp -r research/deep-research ~/.workbuddy/skills/
 Copy-Item -Recurse research\deep-research $env:USERPROFILE\.workbuddy\skills\
 ```
 
-要求：目录根部含 `SKILL.md`，其 YAML frontmatter 至少有 `name` 与 `description`。
+要求：目录根部含 `SKILL.md`，YAML frontmatter 至少包含 `name` 与 `description`。该格式适用于 WorkBuddy、Claude Skills 等支持 Skills 规范的工具。
 
 ## 添加新技能
 
 1. 在对应类别下新建 `<skill-name>/`，放入 `SKILL.md` 及所需资源；
 2. 结构参照 [`_template/`](_template/)；
-3. 提交信息使用规范前缀：
+3. 校验：frontmatter 可解析，`name` 与目录名一致，且能完成一次最小调用；
+4. **确认许可与署名**：
+   - 第三方技能必须有可核验的许可证（无 LICENSE 时查上游仓库 `homepage`）；
+   - 在 [`THIRD_PARTY.md`](THIRD_PARTY.md) 登记来源与许可；
+   - 含商标、付费模板、抓取图片等素材的，先确认能否再分发，否则不入库；
+5. 提交信息使用规范前缀：
 
 ```text
 feat: add <skill-name>
@@ -74,7 +88,7 @@ chore: <杂项>
 ## 许可
 
 - 本仓库自有内容采用 [MIT](LICENSE)。
-- 目录内含第三方技能，许可与出处见 [THIRD_PARTY.md](THIRD_PARTY.md)，使用时请遵守各自条款。
+- 目录内含第三方技能，许可与出处见 [THIRD_PARTY.md](THIRD_PARTY.md)，使用时请遵守各自条款；第三方技能的商标与视觉识别归各自权利人所有。
 
 ## 说明
 
