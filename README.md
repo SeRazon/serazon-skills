@@ -70,7 +70,7 @@ Copy-Item -Recurse research\idea-evaluator $env:USERPROFILE\.workbuddy\skills\
 ## 添加新技能
 
 1. 在对应类别下新建 `<skill-name>/`，放入 `SKILL.md` 及所需资源；
-2. 结构与命名参照 [`_template/`](_template/) 与 [`CONTRIBUTING.md`](CONTRIBUTING.md)；
+2. 结构与命名参照 [`_template/`](_template/) 与 [`CONTRIBUTING.md`](CONTRIBUTING.md)；**四类技能的合格线不同**，见其第三节；
 3. 校验：frontmatter 可解析，`name` 与目录名一致，且能完成一次最小调用；
 4. **确认许可与署名**：
    - 只有 **MIT / Apache-2.0 / CC BY 4.0** 等允许再分发的技能才内置；
