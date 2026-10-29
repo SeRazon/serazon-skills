@@ -43,9 +43,9 @@ license: MIT
 ## 许可与署名（必查）
 
 1. **先找许可证**：目录内 `LICENSE` → `SKILL.md` 的 `license` 字段 → 上游仓库 `homepage` 的 LICENSE。
-2. **无许可证不得入库**：仅有"仅供学习交流"、无 LICENSE 文件的，一律不收录。
-3. **署名**：第三方技能必须在 [`THIRD_PARTY.md`](THIRD_PARTY.md) 登记来源、许可证与备注。
-4. **注意传染性许可**：CC BY-SA 等 ShareAlike 内容不能整段搬入本 MIT 仓库；只能链接引用。
+2. **无许可证不得入库**：仅有"仅供学习交流"或无 LICENSE 文件的，不收录内容，只登记到 [`LINKS.md`](LINKS.md)。
+3. **署名**：内置的第三方技能必须在 [`THIRD_PARTY.md`](THIRD_PARTY.md) 登记来源、许可证与备注。
+4. **传染性许可不入库**：CC BY-SA / CC BY-NC-SA / AGPL 一律不内置（会带来 SA / AGPL 义务），只在 [`LINKS.md`](LINKS.md) 保留获取入口，不得改标 MIT。
 5. **素材**：商标、Logo、付费模板、抓取的图片，先确认能否再分发，否则不入库。
 6. **敏感信息**：不得包含 token、Cookie、接口密钥、手机号、邮箱等个人数据。
 
