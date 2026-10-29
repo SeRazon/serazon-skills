@@ -11,7 +11,7 @@
 | 目录 | 内容 | 数量 |
 |---|---|---|
 | [`research/`](research/) | 科研：Idea 评估、综述调研、文献精读与管理、论文写作与润色、作图、投稿前审查、Rebuttal | 15 |
-| [`design/`](design/) | 设计：前端设计、公众号排版、歌词视频 | 3 |
+| [`design/`](design/) | 设计：前端交互规范、前端设计、公众号排版、歌词视频 | 4 |
 | [`engineering/`](engineering/) | 工程：代码审查、技能安全审查 | 2 |
 | [`algorithm/`](algorithm/) | 算法（预留，待补充） | — |
 | [`_template/`](_template/) | 新增技能的模板与说明 | — |
@@ -34,6 +34,15 @@
 | `drawio-reconstruction` | 参考图重建为可编辑 `.drawio` 并导出预览 |
 | `rebuttal-guidance` | 针对审稿意见的条件说服式回应指导 |
 | `vibe-research-workflow` | AI 辅助科研的 Vibe Coding / Figure / Writing 流程 |
+
+### design
+
+| 技能 | 说明 |
+|---|---|
+| `frontend-interaction-design` | 弹层选型与打扰分级、移动端手势组件、视觉工艺与设计令牌、表单控件、触控热区、无障碍与交付走查 |
+| `frontend-design` | 前端界面设计与实现规范 |
+| `gzh-design` | 公众号排版引擎：Markdown 转可粘贴 HTML |
+| `lyric-video-pv` | 歌词视频生成流程 |
 
 ## 使用
 
