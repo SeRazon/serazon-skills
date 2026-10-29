@@ -1,24 +1,50 @@
-# 新增技能说明
+# 技能模板
 
-## 目录结构
+四类技能各一份最小可用的起点，复制对应目录、改名即可。
 
 ```text
-<category>/<skill-name>/
-├── SKILL.md          # 必需：YAML frontmatter（name、description）+ 正文
-├── references/       # 可选：规范、模板、示例
-├── scripts/          # 可选：辅助脚本
-└── assets/           # 可选：图片等静态资源
+_template/
+├── research/      # 科研：证据表 + 提纲
+│   ├── SKILL.md
+│   └── references/evidence-table.md
+├── design/        # 设计：状态矩阵 + 令牌 + 动效参数
+│   ├── SKILL.md
+│   └── references/state-matrix.md
+├── engineering/   # 工程：审查维度 + 分级 + 复现
+│   ├── SKILL.md
+│   └── references/review-report.md
+└── algorithm/     # 算法：适用条件 + 复杂度 + 边界 + 代码骨架
+    ├── SKILL.md
+    └── references/algorithm-entry.md
 ```
 
-## 约定
+## 用法
 
-1. `SKILL.md` 的 `name` 与目录名一致，使用小写字母与连字符；
-2. `description` 写清"做什么 + 何时用 + 触发词"，控制在 2–3 句；
-3. 脚本不要硬编码个人路径与凭据；示例数据使用虚构占位；
-4. 单个技能体积尽量小于 5 MB，大资源改用外链或单独发布；
-5. 提交信息：`feat: add <skill-name>`。
+```bash
+# 1) 复制对应类别的模板
+cp -r _template/design ../design/<your-skill-name>
 
-## 校验
+# 2) 改 SKILL.md 的 name / display_name / description
+#    name 必须与目录名一致
 
-- frontmatter 能正常解析（`---` 包裹，键值完整）；
-- 在目标助手中能被识别并完成一次最小调用。
+# 3) 按「TODO」提示逐项替换，删掉用不到的章节
+
+# 4) 自检：见 CONTRIBUTING.md 第五节
+```
+
+## 选哪个
+
+| 技能主要… | 用 |
+|---|---|
+| 处理文献、写作、审稿、投稿 | `research/` |
+| 产出界面规范、交互决策、视觉参数 | `design/` |
+| 审查代码、扫描风险、检查配置 | `engineering/` |
+| 讲解算法、给模板、赛场流程 | `algorithm/` |
+
+新增类别时，复制任一模板改写，并在 README 目录表中登记。
+
+## 注意
+
+- 模板中的 `TODO` 与示例数据必须全部替换；提交前搜一遍 `TODO`。
+- 第三方内容先过许可判定（`CONTRIBUTING.md` 第二节）：不能内置的只登记 `LINKS.md`。
+- 模板本身不属于任何技能，不要在其中直接写具体业务内容。
