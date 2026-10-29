@@ -190,3 +190,10 @@ If any check fails, mark the skeleton as "needs user attention".
 - If all checks pass: `intro-drafter` to produce the Introduction
   paragraph outline.
 - If checks fail: address the flagged chain breaks first.
+
+## Reference files
+
+- [`references/paper-types.md`](references/paper-types.md): Technique vs New Problem/Setting positioning.
+- [`references/thinking-template.md`](references/thinking-template.md): the thinking-template cells and methodology outline.
+- [`references/consistency-checks.md`](references/consistency-checks.md): the four self-consistency checks.
+- [`references/worked-examples.md`](references/worked-examples.md): worked examples of the template.

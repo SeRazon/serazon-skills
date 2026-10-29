@@ -8,7 +8,7 @@ license: CC-BY-4.0
 
 ## Overview
 
-A Benchmark paper does not win by proposing a new algorithm. It wins by defining a new evaluation dimension and shipping a construction pipeline that makes the measurement high-quality, scalable, and reproducible. This skill scaffolds the five pillars a reviewer checks, then gives you a six-part Introduction chain, a Section 2-7 skeleton, and a pre-submission checklist. Stage-specific depth lives in seven reference files under `references/`.
+A Benchmark paper does not win by proposing a new algorithm. It wins by defining a new evaluation dimension and shipping a construction pipeline that makes the measurement high-quality, scalable, and reproducible. This skill scaffolds the five pillars a reviewer checks, then gives you a six-part Introduction chain, a Section 2-7 skeleton, and a pre-submission checklist. Stage-specific depth lives in eight reference files under `references/`.
 
 ## Core capabilities
 

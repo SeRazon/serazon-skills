@@ -325,3 +325,17 @@ Top three actions to take first:
 1. ...
 2. ...
 3. ...
+
+## Reference files
+
+- [`references/five-dimensions.md`](references/five-dimensions.md): scoring rubric for the five dimensions.
+- [`references/fatal-flaws.md`](references/fatal-flaws.md): ten canonical fatal flaws and data-refutation rules.
+- [`references/domain-evaluation-frameworks.md`](references/domain-evaluation-frameworks.md): substitute frameworks for non-STEM ideas.
+- [`references/lifecycle-capability-matching.md`](references/lifecycle-capability-matching.md): idea-lifecycle and student-capability matching.
+- [`references/paradigm-shift-probe.md`](references/paradigm-shift-probe.md): four probing principles and scoring.
+- [`references/paradigm-first-principles.md`](references/paradigm-first-principles.md): First Principles lens.
+- [`references/paradigm-elephant.md`](references/paradigm-elephant.md): Elephant-in-the-Room lens.
+- [`references/paradigm-technology-cycle.md`](references/paradigm-technology-cycle.md): Technology Cycle lens.
+- [`references/paradigm-hamming.md`](references/paradigm-hamming.md): Hamming's Rule lens.
+- [`references/paradigm-examples.md`](references/paradigm-examples.md): canonical disruptive examples.
+- [`references/worked-examples.md`](references/worked-examples.md): worked evaluations of Alpha-SQL, AFlow, and LEAD.
